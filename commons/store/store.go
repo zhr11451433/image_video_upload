@@ -6,6 +6,8 @@ import (
 )
 
 const root = "./uploads"
+const AccessKey = "minioadmin"
+const SecretKey = "minioadmin"
 
 type Store interface {
 	Save(ctx context.Context, key string, reader io.Reader) error
